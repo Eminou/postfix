@@ -2,7 +2,7 @@ FROM alpine:edge
 
 LABEL maintainer="contact@ahmedaminemejri.com"
 
-RUN apk --update add postfix \
+RUN apk add --update postfix \
                postfix-mysql \
   && rm -rf /var/cache/apk/*
 
