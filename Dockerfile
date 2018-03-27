@@ -8,5 +8,5 @@ RUN apk --update add postfix \
 
 EXPOSE 25 465 587
 
-CMD ["postfix","start-f"]
+CMD ["postfix","start-fg"]
 
